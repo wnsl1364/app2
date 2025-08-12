@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MainController {
 	
-	@GetMapping
+	@GetMapping("/")
 	@ResponseBody
 	public String main() {
-		return "app2 main";
+		return "app2 main - han jooyoun";
 	}
 
 }
